@@ -47,7 +47,7 @@ a:active {
 .hero {
     display: flex;
     background-color: #1F2937;
-    padding: 40px 50px 100px;
+    padding: 30px 50px 70px;
     justify-content: space-between;
 }
 
@@ -76,20 +76,21 @@ p {
     align-items: center;
 }
 
+
 .hero-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.hero-left button { 
+button { 
     border-radius: 12px;
     color:#E5E7EB;
     font-weight: bold;
     padding: 10px;
     width: 160px;
     background-color: #3882F6;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     text-align: center;
 }
@@ -114,13 +115,14 @@ button:active {
 
 
 .information {
-    padding: 50px 30px 80px;
+    padding-top: 44px;
+    padding-bottom: 100px;
 }
 
 .content { 
     display: flex;
     justify-content: space-evenly;
-    padding-top: 35px;
+    padding-top: 30px;
     text-align: space-evenly;
 }
 
@@ -171,64 +173,18 @@ button:active {
 
 
 
-.footer-container { 
+.footer { 
     display: flex;
     justify-content: center;
-    padding: 50px 200px 75px 200px;
+    padding: 50px 250px 75px 250px;
     height: 300px;
 }
 
-.footer {
+.footer-container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50%;
-    background-color: #3882F6;
-    border-radius: 12px;
-    padding: 15px 100px 15px;
+    width: 90%;
+    height: 90%;
+    border-style: dotted;
+    border-color: pink;
 }
 
-#cta {
-    color: #F9FAF8;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.footer-button button{
-    border: 2px solid #F9FAF8;
-}
-
-.footer-left { 
-    line-height: 0.8;
-}
-
-#foot-text {
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-.footer-button button {
-        border-radius: 12px;
-        color:#E5E7EB;
-        font-weight: bold;
-        padding: 16px;
-        width: 190px;
-        background-color: #3882F6;
-        font-size: 18px;
-        cursor: pointer;
-        text-align: center;
-}
-
-.footer-button button:hover {
-    background-color: #2b64bf;
-    color: white;
-    transition-duration: 0.4s;
-    padding-right: 20px;
-}
-
-.footer-button button:active {
-    box-shadow: 0 2px #666;
-    transition-duration: 0.05s;
-    background-color: #2757a5;
-}
