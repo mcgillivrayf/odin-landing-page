@@ -13,7 +13,6 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     font-size: 18px;
-    padding: 0px 25px;
 }
 
 ul {
@@ -33,6 +32,11 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+a:active {
+    color: grey;
+    transition: 0.05s;
 }
 
 .hero {
@@ -103,35 +107,40 @@ button:active {
     border: none;
 }
 
+
+
+
+
+
 .information { 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 
 .information-header { 
     color:#1F2937;
     font-weight: bolder;
     font-size: 36px;
+    align-self: center;
 }
 
-.tiles-container { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.tile { 
-    width: 25%;
-    height: 33%;
-}
 
 .tiles { 
     font-size: 18px;
-    color: #E5E7EB;
+    color: black;
+}
 
+
+
+
+
+
+
+.testimonials {
+    background-color: pink;
+    margin-top: 50px;
 }
