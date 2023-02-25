@@ -72,21 +72,13 @@ button {
     background-color: #2b64bf;
     color: white;
     transition-duration: 0.4s;
-    padding-right: 25px;
+    padding-right: 18px;
 }
 
-.hero-left button:after {
-    content: '\00bb';
-    position: absolute;
-    padding-right: 5px;
-    transition: 0.4s;
-    opacity: 0;
-    right: -10px;
-}
-
-.hero-left button:hover .hero-button:after {
-    opacity: 100;
-    right: 0;
+.hero-left button:active {
+    box-shadow: 0 2px #666;
+    transition-duration: 0.05s;
+    background-color: #2757a5;
 }
 
 .hero-left button {
