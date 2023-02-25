@@ -13,6 +13,7 @@ body {
     justify-content: space-between;
     background-color: #1F2937;
     font-size: 18px;
+    padding: 0px 25px;
 }
 
 ul {
@@ -37,7 +38,7 @@ a {
 .hero {
     display: flex;
     background-color: #1F2937;
-    padding: 30px;
+    padding: 14px 30px 30px;
     justify-content: space-between;
 }
 
@@ -53,13 +54,17 @@ p {
 
 .hero-right {
     width: 40%;
+    padding-right: 40px;
 }
 
 .placeholder {
-    background-color: #E5E7EB;
+    background-color: #666;
+    color: #E5E7EB;
     height:100%;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -81,14 +86,14 @@ button {
     text-align: center;
 }
 
-.hero-left button:hover {
+button:hover {
     background-color: #2b64bf;
     color: white;
     transition-duration: 0.4s;
     padding-right: 18px;
 }
 
-.hero-left button:active {
+button:active {
     box-shadow: 0 2px #666;
     transition-duration: 0.05s;
     background-color: #2757a5;
@@ -98,3 +103,35 @@ button {
     border: none;
 }
 
+.information { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.information-header { 
+    color:#1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.tiles-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tile { 
+    width: 25%;
+    height: 33%;
+}
+
+.tiles { 
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
