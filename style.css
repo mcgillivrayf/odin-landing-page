@@ -1,3 +1,8 @@
+html,
+body {
+    margin: 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -32,7 +37,7 @@ a {
 .hero {
     display: flex;
     background-color: #1F2937;
-    padding: 32px;
+    padding: 30px;
     justify-content: space-between;
 }
 
@@ -47,8 +52,16 @@ p {
 }
 
 .hero-right {
-    width: 50%;
+    width: 40%;
 }
+
+.placeholder {
+    background-color: #E5E7EB;
+    height:100%;
+    width: 100%;
+    text-align: center;
+}
+
 
 .hero-title {
     font-size: 48px;
@@ -84,3 +97,4 @@ button {
 .hero-left button {
     border: none;
 }
+
